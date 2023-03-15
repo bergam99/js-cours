@@ -1,0 +1,28 @@
+*{
+    background: cyan;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.lancer > input{
+    background: white;
+    display: flex;
+
+    
+}
+
+
+button{
+    border-radius: 50px;
+    border: black 2px solid;
+    height: 5em;
+    width: 5em;
+    background: white;
+    
+}
+

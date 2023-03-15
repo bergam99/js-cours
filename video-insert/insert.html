@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="insert.css">
+</head>
+
+<body>
+
+    <div class="text flex">
+        <h1>entrer un URL</h1>
+        <input type="text" id="videoUrl" placeholder="Youtube video URL" style="width: 400px;">
+        <br>
+        <button onclick="showVideo()">Check</button>
+        <br>
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1"  id="myFrame" width="420" height="345">
+        </iframe>
+
+
+        <script src="insert.js"></script>
+    </div>
+</body>
+
+</html>
+
+
+
+<!-- 
+<!DOCTYPE html>
+    <html>
+        <body>
+            <p>Enter Youtube video URL: </p>
+            <input type="text" id="videoUrl" placeholder="Youtube video URL" style="width: 400px;">
+           <br>
+           <button onclick="showVideo()">Check</button>
+           <br>
+           <iframe id="myFrame" width="420" height="345">fgh
+           </iframe>
+
+        <script>
+            function showVideo() {
+                var videoUrl = document.getElementById("videoUrl").value
+                document.getElementById("myFrame").src = videoUrl
+            }
+        </script>
+    </body>
+</html> -->
